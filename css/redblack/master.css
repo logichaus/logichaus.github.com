@@ -1,0 +1,122 @@
+#header-container{ 
+  padding: 40px 0px 40px 40px;
+  border-bottom: 2px solid #000;
+  background: url(../../extra/BGGradientTile.gif) 0 -400px;
+}
+#pages-container{
+  background: #151515;
+}
+p.site-description {
+  color: #754C29;
+  color: #000;
+}
+
+#container{
+  border-top: 2px solid #F85931;
+  border-top: 2px solid #800000;
+  background: white;
+}
+#footer-container{
+  border-top: 10px solid #F85931;
+  border-top: 10px solid #800000;
+}
+.three-column li.column a {
+  color: #A1C8CE;
+}
+.logo-image {
+  position: absolute;
+  left: 170px;
+  top: -36px;
+}
+h1.site-name a {
+  color: #EFE4BB;
+  color: #FFEFD5;
+}
+p.site-description {
+  color: #754C29;
+  color: #000;
+}
+
+body {
+  min-width: 1001px;
+}
+ul.post-list {
+  display: table-row;
+  padding: 1em 0em;
+  width: 920px;
+}
+ul.post-list li {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  float: left;
+  padding: 0px 10px 40px 10px;
+  display: table-cell;
+}
+.post-list li.title-block {
+  width: 300px;
+  left: -10px;
+}
+
+.post-list h4 {
+  background: white; 
+  text-align: center;
+  font-family: Arial;
+  font-size: 20;
+  letter-spacing: 1px;
+}
+
+.pagination a {
+  float: none;
+  text-align: right;
+}
+
+
+.post-brief-image-container {
+    display:block;
+    height:130px;
+    overflow:hidden;
+    width:180px;
+}
+
+.post-brief-image {
+    background:#ccc;
+    display:table-cell; /* can't do table-cell because of portrait images */
+    font-size:2.5em;
+    height:130px;
+    line-height:.75em;
+    width:180px;
+    vertical-align:middle;
+}
+
+.post-brief-text {
+    background:#ccc;
+    color:#ccc;
+    display:block;
+    font-size:2.5em;
+    height:130px;
+    line-height:.75em;
+    overflow:hidden;
+    width:180px;
+    font-family: NewCicleFina, 'Josefin Sans Std Light', Arial, Helvetica, sans-serif;
+    color: #800000;
+}
+.post-brief-text p {
+  font-size:inherit;
+}
+
+.post-title {
+    display:block;
+    padding-top:10px;
+}
+
+dt {
+  font-weight: bold;
+  float: left;
+}
+dt:after {
+  content: ':';
+}
+dd {
+  padding-left: 5em;
+}
