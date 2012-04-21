@@ -120,3 +120,67 @@ dt:after {
 dd {
   padding-left: 5em;
 }
+
+.training-title {
+  font-family: Arial;
+  letter-spacing: 1px;
+  color: #800000;
+}
+
+.simpletablestyle {
+  background-color: #E6E7E8;
+  clear: both;
+  float: left;
+  border-width: 0px;
+  border-spacing: 1px;
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  line-height: 1.5;
+  color: #555;
+}
+
+.simpletablestyle .header {
+  background: url(../../images/magnolia/bkg-blkheader.png) black repeat-x top left;
+  height: 31px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border-collapse: separate;
+  border-spacing: 2px;
+  line-height: 1.5;
+  font: 12px "Lucida Sans Unicode"
+}
+
+.simpletablestyle th {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 0 10px 0 5px;
+  border-bottom: #999 dotted 1px;
+}
+
+.simpletablestyle .oddRow {
+  background-color: #F4F3F3;
+  padding-left: 6px;
+}
+
+.simpletablestyle td {
+  height: 3em;
+  padding: 5px 5px;
+  font-size: 14px;
+  padding: 5px 5px;
+  font: 12px "Lucida Sans Unicode";
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+  border-spacing: 2px;
+  line-height: 1.5;
+}
