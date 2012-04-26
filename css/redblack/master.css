@@ -3,7 +3,7 @@ body {
 }
 
 #header-container{ 
-  padding: 40px 0px 40px 40px;
+  padding: 40px 0px 10px 40px;
   border-bottom: 2px solid #000;
   background: url(../../images/BGGradientTile.gif) 0 -400px;
 }
@@ -29,7 +29,7 @@ p.site-description {
 }
 .logo-image {
   position: absolute;
-  left: 170px;
+  left: 90px;
   top: -36px;
 }
 h1.site-name a {
